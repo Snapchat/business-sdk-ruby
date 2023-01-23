@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
     "documentation_uri" => "https://github.com/Snapchat/business-sdk-ruby",
     "source_code_uri" => "https://github.com/Snapchat/business-sdk-ruby"
   }
-  s.license     = "MIT"
+  s.license = "MIT"
   s.required_ruby_version = ">= 2.4"
 
   s.add_dependency 'concurrent-ruby', '~> 1.1'
