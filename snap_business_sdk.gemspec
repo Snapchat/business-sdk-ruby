@@ -24,6 +24,10 @@ Gem::Specification.new do |s|
   s.homepage    = "https://snapchat.com"
   s.summary     = "The official Snap Business SDK for Ruby"
   s.description = "The official Snap Business SDK for Ruby for interacting with the Snap Conversion API and Launchpad"
+  s.metadata    = {
+    "documentation_uri" => "https://github.com/Snapchat/business-sdk-ruby",
+    "source_code_uri" => "https://github.com/Snapchat/business-sdk-ruby"
+  }
   s.license     = "MIT"
   s.required_ruby_version = ">= 2.4"
 
