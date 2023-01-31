@@ -1,5 +1,5 @@
-require_relative '../../lib/snap_business_sdk/api/conversion_api'
-require_relative '../../lib/snap_business_sdk/util/constants'
+require_relative '../../lib/snap_business/api/conversion_api'
+require_relative '../../lib/snap_business/util/constants'
 
 describe 'conversion_api' do
   describe 'initialize' do

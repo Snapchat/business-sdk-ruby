@@ -1,5 +1,5 @@
 require 'digest'
-require_relative '../../lib/snap_business_sdk/util/capi_hash'
+require_relative '../../lib/snap_business/util/capi_hash'
 
 describe 'capi_hash' do
   describe 'norm_and_hash_str' do
