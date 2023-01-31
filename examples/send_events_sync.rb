@@ -1,5 +1,5 @@
 require 'concurrent'
-require 'snap_business_sdk'
+require 'snap_business'
 
 PIXEL_ID = '<insert-pixel-id>'
 TOKEN = '<insert-capi-token>'

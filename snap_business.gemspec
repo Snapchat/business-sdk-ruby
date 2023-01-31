@@ -13,10 +13,10 @@ OpenAPI Generator version: 6.0.1
 =end
 
 $:.push File.expand_path("../lib", __FILE__)
-require "snap_business_sdk/version"
+require "snap_business/version"
 
 Gem::Specification.new do |s|
-  s.name        = "snap_business_sdk"
+  s.name        = "snap_business"
   s.version     = SnapBusinessSDK::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Snap Inc."]
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://snapchat.com"
   s.summary     = "The official Snap Business SDK for Ruby"
   s.description = "The official Snap Business SDK for Ruby for interacting with the Snap Conversion API and Launchpad"
-  s.metadata    = {
+  s.metadata = {
     "documentation_uri" => "https://github.com/Snapchat/business-sdk-ruby",
     "source_code_uri" => "https://github.com/Snapchat/business-sdk-ruby"
   }

@@ -6,12 +6,16 @@ The Snapchat Conversions API (CAPI) allows you to pass web, app, and offline eve
 Business SDK is an API client that facilitates requests and authentication processes with CAPI as if they were local functions of the supported languages. There have been similar products (e.g. Facebook Business SDK for Conversion API), which largely simplified the integration for advertising platforms. To improve the developer experience and CAPI adoption, we bundle the dedicated CAPI client, hashing libraries, and code examples into one SDK that is available in multiple languages. In addition, our CAPI Business SDK paves the way for Privacy-Enhancing Technologies in CAPI v2, with seamless integration of the Launch Pad.
 
 ## Installation
+### Install from RubyGems
+```shell
+gem install snap_business
+```
 ### Build gem from source
 
 To build the Ruby code into a gem:
 
 ```shell
-gem build snap_business_sdk.gemspec
+gem build snap_business.gemspec
 ```
 
 Then install the gem locally:
@@ -22,7 +26,7 @@ gem install <path-to-gem>
 
 Finally add this to the Gemfile:
 
-    gem 'snap_business_sdk', '~> 1.0.0'
+    gem 'snap_business', '~> 1.0.0'
 
 ## Getting Started
 ### Sending Production Events
@@ -30,7 +34,7 @@ Please follow the [installation](#installation) procedure and then run the follo
 
 ```ruby
 # Load the gem
-require 'snap_business_sdk'
+require 'snap_business'
 
 # provide your pixel id and api auth token here
 PIXEL_ID = '<insert-pixel-id>'
@@ -83,7 +87,7 @@ puts "Response: #{prom.value}"
 ### Send a batch of CAPI events (up to 2000)
 ```ruby
 # Load the gem
-require 'snap_business_sdk'
+require 'snap_business'
 
 # provide your pixel id and api auth token here
 PIXEL_ID = '<insert-pixel-id>'
